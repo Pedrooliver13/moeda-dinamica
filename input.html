@@ -1,0 +1,20 @@
+<input
+  type="text"
+  name="price"
+  placeholder="Dígite um preço"
+  onkeydown="mask.apply(this , 'formatBRL')"
+>
+
+/* 
+  onkeydown
+  passando qual o input escolhido
+  e qual formatação a ser feita
+*/
+
+/*
+  this = funciona como windown
+  quando usado sozinho
+  
+  mas, quando usado dentro de uma tag 
+  vc, vai estar passando a propria tag
+*/
